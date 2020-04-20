@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+
+nav {font-family: 'Lato'; font-size: 18px;}
+#main {width: 900px; margin: 10px auto;}
+
+body {background-image: url('map-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato'; font-size: 18px;}
+
+h1 {font-family: 'Supermercado One'; font-size: 45px; color: #5d4037;}
+
+#menu {
+    
+    columns: 400px 2;
+    column-gap: 100px;
+    column-rule: 2px dashed rosybrown;
+}
+
+section {padding-bottom: 50px;}
+h2 {margin: 0;
+    font-variant: small-caps; color: #6d4c41;
+    }
+
+dt {font-size: 20px; font-weight: bold;}
+
+dd {margin: 0 0 12px 0; display: flex;}
+.details {order: 1;}
+
+.price { font-size: large; color: firebrick;
+    order: 2;
+    padding-left: 10px;
+}
+
+address {padding: 10px;
+border: 2px dashed rosybrown;}
