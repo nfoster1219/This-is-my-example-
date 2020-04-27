@@ -3,7 +3,7 @@
 nav {font-family: 'Oswald'; font-size: 14px;}
 #main {width: 900px; margin: 10px auto;}
 
-h1 {font-family: 'Bungee Inline'; font-size: 46px; font-weight: lighter;
+h1 {font-family: 'Oswald'; font-size: 46px; font-weight: lighter;
 }
 
 #menu {columns: 420px 2; column-gap: 60px;
@@ -25,4 +25,6 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 .price {float: right; padding: 0 0 35px 20px;}
 
 address {text-align: right;}
+
+footer {box-align: right}
     
